@@ -1,0 +1,18 @@
+In this project I worked as a data analyst for a fictional e-commerce company that sells products in three categories Electronics Clothing and Home Essentials. The company receives many orders every day and my task was to analyze this raw order data using only basic Python without any advanced libraries.
+
+I started by storing all the orders in a list of tuples. Each tuple contains the customer name product name category and price. After that I created a dictionary to map every customer with the list of products they bought. This made it easy to track each customers purchase history.
+
+Next I built another dictionary to map each product to its category. I also used a set to collect all the unique categories. Sets are useful because they automatically remove duplicates so I got a clean list of categories.
+
+The main part of the project was customer segmentation. I calculated the total amount spent by each customer using a loop. Based on the total spending I divided customers into three groups High Value customers who spent the most Moderate buyers and Low Value customers. This kind of segmentation helps the company decide whom to focus on for marketing and offers.
+
+After segmentation I generated some useful business insights. I calculated total revenue for each product category found all unique products ordered and identified customers who bought only Electronics using list comprehension. I also sorted the customers by their total spending to find the top 3 highest spenders.
+
+Finally I used set operations to find interesting patterns like customers who shopped in more than one category and those who bought both Electronics and Clothing.
+
+Overall this project helped me understand how powerful Pythons basic data structures lists tuples dictionaries and sets can be. With just loops conditionals and simple set operations I was able to clean the data analyze customer behaviour and generate insights that can actually help a business take better decisions.
+
+It was a great learning experience and gave me more confidence in using core Python for real world data analysis.
+
+ 
+ 
